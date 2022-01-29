@@ -738,7 +738,7 @@ body.light-theme {
 }
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .nav__menu {
     padding: 1rem 1.5rem;
   }
@@ -773,6 +773,8 @@ body.light-theme {
     font-size: var(--small-font-size);
   }
 }
+
+
 /* For medium devices */
 @media screen and (max-width: 576px) {
   .nav__menu {
@@ -927,7 +929,7 @@ body.light-theme {
   .contact__container {
     column-gap: 6rem;
   }
-  
+
   .form__social-link {
     font-size: 1.25rem;
     padding: 0.4rem;
