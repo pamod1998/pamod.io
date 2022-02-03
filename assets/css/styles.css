@@ -756,7 +756,7 @@ body.light-theme {
     width: 130px;
   }
 
-  .about__container{
+  .about__container {
     justify-content: center;
   }
 
@@ -773,7 +773,6 @@ body.light-theme {
     font-size: var(--small-font-size);
   }
 }
-
 
 /* For medium devices */
 @media screen and (max-width: 576px) {
@@ -833,6 +832,12 @@ body.light-theme {
   }
 }
 
+@media screen and (min-width: 320px) {
+  .contact__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 /* For large devices */
 @media screen and (min-width: 1020px) {
   .container {
@@ -852,7 +857,7 @@ body.light-theme {
     height: calc(var(--header-height)) + 1rem;
   }
 
-  .nav__menu{
+  .nav__menu {
     left: 0;
     right: 0;
     margin: 0 auto;
