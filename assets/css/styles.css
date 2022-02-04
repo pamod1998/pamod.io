@@ -822,6 +822,11 @@ body.light-theme {
     width: 295px;
   }
 
+  .contact__container {
+    column-gap: 6rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .contact__info {
     grid-template-columns: 300px;
     justify-content: center;
