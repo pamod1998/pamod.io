@@ -7,14 +7,6 @@ function scrollHeader() {
 }
 window.addEventListener("scroll", scrollHeader);
 
-/*=============== SERVICES MODAL ===============*/
-
-/*=============== MIXITUP FILTER PORTFOLIO ===============*/
-
-/* Link active work */
-
-/*=============== SWIPER TESTIMONIAL ===============*/
-
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll("section[id]");
 
